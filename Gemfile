@@ -17,6 +17,7 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.8', '>= 3.8.2'
   gem 'capybara', '~> 3.13', '>= 3.13.2'
   gem 'database_cleaner', '~> 1.7'
+  gem 'factory_girl_rails', '~> 4.9'
 end
 
 group :development do
@@ -33,3 +34,4 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 gem 'devise', '~> 4.2'
+gem 'bootstrap-sass', '~> 3.3', '>= 3.3.6'
